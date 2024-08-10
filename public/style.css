@@ -1,0 +1,433 @@
+
+/*This is a comment in CSS*/
+@font-face {
+    font-family: 'Merriweather'; /* Name your font family */
+    src: url('/public/Merriweather-Regular.ttf'); /* Locate the .ttf file within your directory*/
+  }
+
+body{
+    font-family: 'Merriweather', serif;
+    
+    /* font-family: 'Marriweather', serif;
+    */
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+  /*  background-image: url(/assets/images/Back.png);*/
+   
+}
+
+header h1{
+    font-size: 800%;
+    /* margin: 0% 0% 0% 0%; */
+    /* margin:20px 0; */
+    margin: 0px 0px 40px 0px;
+    padding-top: 100px;
+    /* padding:100px 3%; */
+    color:rgb(255, 255, 255);
+    /* font-family: Cambria,serif; */
+    font-family: 'Merriweather', serif;
+}
+header h2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* padding:100px 3%; */
+    font-family: 'Merriweather', serif;
+    font-size: 400%;
+    margin: 0px 0px 40px 0px;
+    color:rgb(255, 255, 255);
+    font-weight: normal;
+    
+    
+    /* padding:0px 3%; */
+}
+header h3{
+    padding-top: 110px;
+    padding-bottom: 20px;
+    /* padding:100px 3%; */
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    margin: 0px 0px 40px 0px;
+    color:rgb(255, 255, 255);
+    font-weight: normal;
+    
+}
+
+main.documentation-page h3{
+    padding-bottom: 20px;
+    font-size: 150%;
+    margin-top: 0px;
+    color:rgb(255, 255, 255);
+    /* font-family: Cambria,serif;  */
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    text-decoration: underline
+}
+main.documentation-page h2{
+    padding-bottom: 100px;
+    font-size: 400%;
+    margin-top: 0px;
+    color:rgb(255, 255, 255);
+    /* font-family: Cambria,serif;  */
+    font-family: 'Merriweather', serif;
+    
+}
+
+li{
+    font-family: 'Merriweather', serif;
+    font-size: 120%;
+    
+    color:rgb(255, 255, 255);
+    line-height: 1.6em;
+    margin: 0px 0px 40px 0px;
+    /* padding-top: 100px; */
+    /* padding:100px 3%; */
+
+}
+
+/* ol{
+    font-family: 'Merriweather', serif;
+    font-size: 90%;
+    color:rgb(255, 255, 255);
+    line-height: 1.6em;
+} */
+p{
+    font-size: 120%;
+    line-height: 1.6em;
+    /* margin: 2.5em 0; */
+    color:rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    /* font-family: Andalé Mono, monospace; */
+    font-family: 'Merriweather', serif;
+    margin: 0px 0px 40px 0px;
+    /* padding-top: 100px; */
+    /* padding:50px 3%; */
+    
+}
+p2{
+    font-size: 80%;
+    line-height: 1.6em;
+    /* margin: 2.5em 0; */
+    color:rgb(203, 203, 203);
+   
+    /* font-family: Andalé Mono, monospace; */
+    font-family: 'Merriweather', serif;
+    margin: 0px 0px 40px 0px;
+    /* padding-top: 100px; */
+    /* padding:50px 3%; */
+    
+}
+
+main,
+header{
+    width:100%;
+    max-width:1400px; /* means it won't be larger than 1200px on larger screens */
+    box-sizing: border-box;
+    color:rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 30px 3%;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Merriweather', serif;
+}
+
+header.documentation-header{
+    padding: 0 3%;
+    /* padding: 30px 3%;  */
+    margin: 0px 0px 40px 0px;
+}
+
+/* 
+.documentation-header section,
+main.documentation-page section{
+    /* margin: 10px 10%;
+    margin: 0 auto; */
+   
+    /* padding: 30px 3%; 
+    margin: 0px 0px 40px 0px; */
+    
+
+ 
+
+footer{
+    width:100%;
+    min-height:100px;
+}
+
+
+nav{
+
+    padding:30px 3%;
+    float: right;
+    padding-bottom: 200px;
+    margin: 0px 0px 40px 0px;
+    font-family: 'Merriweather', serif;
+}
+
+nav a{
+    color: rgb(255, 84, 27);
+    font-size: 20px;
+    text-decoration:underline;
+    
+}
+nav a:hover{
+    color: rgb(255, 141, 19);
+}
+nav a:active{
+    color: rgb(255, 181, 22);
+}
+
+.container {
+    display: inline-block;
+  cursor: pointer;
+  
+  /* Position in top-right corner */
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+    position: sticky;
+    
+
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
+.center-text{
+    text-align: left;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+
+
+/* original aspect ratio width="640" height="360" */
+.responsive-video{
+    position: relative;
+    width: 100%; /* adjust this and the padding-top to change how big it is*/
+    height: 0;
+    padding-top: 57%; /* padding top is in reltation to the width of parent, it preserves aspect ratio*/
+    /* margin: 0 auto; */ /*this would center your video in the section container*/
+}
+.responsive-video iframe{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Flex layouts are one of the easier ways to style responsive layouts that work on all devices */
+/* https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox */
+
+.flex-container{
+    display: flex; /* all children will now be flex items */
+    flex-direction: row; /* other option is column */
+    flex-wrap: wrap; /* means the children will wrap to a new line */
+}
+
+.flex-item{
+    display: flex;
+    /* the following three items can be put on one line: https://developer.mozilla.org/en-US/docs/Web/CSS/flex */
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 25%; /*width of the box, take up a quarter of the parent's size*/
+    box-sizing: border-box; /*this means that we can add padding, line below, and still only take 25% width of parent*/
+    padding: 5px;
+
+}
+
+.flex-basis-third .flex-item{
+    flex-basis: 33.33%; 
+}
+
+.flex-basis-half .flex-item{
+    flex-basis: 50%; 
+}
+/* 
+.flex-item a {
+    display: flex;
+    width: 100%;
+    height: 0;
+    padding: 30% 0;
+    background-image: url(../assets/images/FolderM-01.png);
+    
+    background-position: left;
+    background-size: 100%;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    text-decoration: none;
+    color:#ffffff;
+    transition: all 0.2s; /* CSS transitions https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions */
+
+
+
+/* want a different background image for each project? */
+/* try give each a tag a unique id in your HTML and then set different background images here*/
+/* EXAMPLE CSS: won't work if you just un-comment this:*/
+
+.flex-item a#bg{
+    background-image: url(../assets/images/sketch.png); 
+}
+
+
+.flex-item a:hover{
+    color:#bbbbbb;
+    background-size: 120%;
+}
+
+.flex-item h4{
+   margin:10px;
+   background-color: rgb(0, 0, 0);
+   padding:5px 10px;
+}
+
+a.button {
+    padding: 1px 6px;
+    /* border: 1px outset buttonborder; */
+    border-radius: 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 98, 0);
+    /* color: buttontext; 
+    background-color: buttonface; */
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    font-size: 90%;
+}
+
+/* Media Queries for responsive design */
+
+/* Un-comment the body background-colors to see bold debug color change between screen sizes */
+
+/* Extra large */
+@media screen and (max-width: 1200px) {
+    /* body {
+      background-color: rgb(0, 255, 162);
+    } */
+
+    .flex-item{
+        flex-basis: 33.33%; /*width of the box, take up a quarter of the parent's size*/
+    }
+}
+
+/* Large */
+@media screen and (max-width: 992px) {
+    /* body {
+      background-color: rgb(255, 81, 0);
+    } */
+
+    .documentation-header section,
+    main.documentation-page section{
+        margin: 40px 5%;
+    }
+
+}
+
+/* Medium */
+@media screen and (max-width: 768px) {
+    /* body {
+      background-color: rgb(255, 0, 191);
+    } */
+
+    .flex-item{
+        flex-basis: 50%; /*width of the box, take up a quarter of the parent's size*/
+    }
+}
+
+/* Small */
+@media screen and (max-width: 375px) {
+    /* body {
+      background-color: blue;
+    } */
+
+    .flex-item{
+        flex-basis: 100%; /*width of the box, take up a quarter of the parent's size*/
+    }
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    size: 120%;
+
+
+  }
+/*   
+  a:hover {
+    background-color: #fc5555;
+    color: black;
+  } */
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: rgb(255, 136, 0);
+      /* Position in top-right corner */
+  position: absolute;
+  border-bottom: 10px;
+  left: 40px;
+  }
+  
+  .next {
+    background-color:  rgb(255, 136, 0);
+    color: white;
+      /* Position in top-right corner */
+  position: absolute;
+  border-bottom: 10px;
+  right: 40px;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
+
+  .vertical-menu {
+    width: 80%; /* Set a width if you like */
+    text-align: left;
+  }
+  
+  .vertical-menu a {
+    background-color: #eeeeee00; /* Grey background color */
+    color: rgb(255, 255, 255); /* Black text color */
+    display: block; /* Make the links appear below each other */
+     padding: 40px; /*Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    
+    font-size: 300%;
+    /* text-align: center; */
+    
+
+
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #cccccc00; /* Dark grey background on mouse-over */
+    color: rgb(255, 136, 0);
+    text-decoration: underline;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #199a8700; /* Add a green color to the "active/current" link */
+   
+
+  }
